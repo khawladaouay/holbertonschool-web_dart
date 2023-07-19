@@ -3,6 +3,6 @@ bool isPalindrome(String s) {
     return false;
   }
 
-  String r = s.split('').r.join('');
-  return s == r;
+  String rever = s.split('').rever.join('');
+  return s == rever;
 }
